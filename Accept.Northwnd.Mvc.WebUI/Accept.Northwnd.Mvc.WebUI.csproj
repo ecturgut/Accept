@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Accept_Business\Accept.Business.csproj" />
+    <ProjectReference Include="..\Accept_Core\Accept.Core.csproj" />
+    <ProjectReference Include="..\Accept_Northwnd_Entities\Accept.Northwnd.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

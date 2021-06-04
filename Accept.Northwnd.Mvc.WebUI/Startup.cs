@@ -1,3 +1,7 @@
+using Accept.Business.Abstract;
+using Accept.Business.Concrete;
+using Accept.Northwnd.DataAccess.Absctract;
+using Accept.Northwnd.DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,6 +27,10 @@ namespace Accept.Northwnd.Mvc.WebUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            services.AddScoped<IProductService, ProductManager>();
+            services.AddScoped<IProductDal, EfProductDal>();
+
             services.AddControllersWithViews();
         }
 
