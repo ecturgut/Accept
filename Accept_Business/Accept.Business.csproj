@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Accept_Northwnd_DataAccess\Accept.Northwnd.DataAccess.csproj" />
+    <ProjectReference Include="..\Accept_Northwnd_Entities\Accept.Northwnd.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
