@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Core", "Accept_Core\Accept.Core.csproj", "{5395D293-28FF-4971-808F-C6E618CE068E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accept.Core", "Accept_Core\Accept.Core.csproj", "{5395D293-28FF-4971-808F-C6E618CE068E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Northwnd.Entities", "Accept_Northwnd_Entities\Accept.Northwnd.Entities.csproj", "{88BCBAEF-E1D2-4527-A826-6EA475D9F534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accept.Northwnd.Entities", "Accept_Northwnd_Entities\Accept.Northwnd.Entities.csproj", "{88BCBAEF-E1D2-4527-A826-6EA475D9F534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Northwnd.DataAccess", "Accept_Northwnd_DataAccess\Accept.Northwnd.DataAccess.csproj", "{2C46BF56-F6A3-4E6F-9F8D-5652AAC2AA12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accept.Northwnd.DataAccess", "Accept_Northwnd_DataAccess\Accept.Northwnd.DataAccess.csproj", "{2C46BF56-F6A3-4E6F-9F8D-5652AAC2AA12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Business", "Accept_Business\Accept.Business.csproj", "{4085593C-6B74-419B-9EEE-013BFA3A4D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accept.Business", "Accept_Business\Accept.Business.csproj", "{4085593C-6B74-419B-9EEE-013BFA3A4D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Northwnd.MvcWebUI", "Accept_Northwnd.MvcWebUI\Accept.Northwnd.MvcWebUI.csproj", "{97B0B275-7400-4B46-9070-9751CD8F7C42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accept.Northwnd.Mvc.WebUI", "Accept.Northwnd.Mvc.WebUI\Accept.Northwnd.Mvc.WebUI.csproj", "{2EDCE1CA-6960-4D02-8E41-BCF6C1916D70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{4085593C-6B74-419B-9EEE-013BFA3A4D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4085593C-6B74-419B-9EEE-013BFA3A4D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4085593C-6B74-419B-9EEE-013BFA3A4D8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97B0B275-7400-4B46-9070-9751CD8F7C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97B0B275-7400-4B46-9070-9751CD8F7C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97B0B275-7400-4B46-9070-9751CD8F7C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97B0B275-7400-4B46-9070-9751CD8F7C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EDCE1CA-6960-4D02-8E41-BCF6C1916D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDCE1CA-6960-4D02-8E41-BCF6C1916D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDCE1CA-6960-4D02-8E41-BCF6C1916D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDCE1CA-6960-4D02-8E41-BCF6C1916D70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

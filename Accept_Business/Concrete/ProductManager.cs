@@ -39,7 +39,7 @@ namespace Accept.Business.Concrete
 
         public void Delete(int productId)
         {
-            _productDal.Delete(productId);
+            _productDal.Delete(new Product {ProductId = productId });
         }
 
     }
