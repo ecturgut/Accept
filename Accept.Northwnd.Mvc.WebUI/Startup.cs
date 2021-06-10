@@ -46,8 +46,9 @@ namespace Accept.Northwnd.Mvc.WebUI
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            app.UseFileServer();
             app.UseStaticFiles();
-
+ 
             app.UseRouting();
 
             app.UseAuthorization();
