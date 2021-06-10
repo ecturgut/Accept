@@ -1,4 +1,5 @@
 ﻿using Accept.Business.Abstract;
+using Accept.Northwnd.Mvc.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,14 @@ namespace Accept.Northwnd.Mvc.WebUI.Controllers
         }
         public ActionResult Index()
         {
-            return View();
+            var products = _productService.GetAll();
+
+            ProductListViewModel model = new ProductListViewModel
+            {
+                Products = products
+            };
+
+            return View(model);
         }
     }
 }

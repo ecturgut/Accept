@@ -30,8 +30,6 @@ namespace Accept.Northwnd.Mvc.WebUI
             services.AddMvc();
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDal, EfProductDal>();
-
-            services.AddControllersWithViews();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
